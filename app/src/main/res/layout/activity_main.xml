@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="50px"
+        android:background="#999999"></View>
+
+    <ImageView
+        android:layout_width="170px"
+        android:layout_height="170px"
+        app:layout_auto_basewidth="height"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130px"
+        android:src="@drawable/sadnes" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="320px"
+        android:text="暂无车主接单"
+        android:textColor="#666666"
+        android:textSize="28px"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_below="@id/tv1"
+        android:layout_width="match_parent"
+        android:layout_marginTop="32px"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="[10元等比赔试驾券]"
+            android:textColor="#fa8919"
+            android:textSize="24px" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已充入您的账户,"
+            android:textColor="#666666"
+            android:textSize="24px" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#666666"
+        android:textSize="24px"
+        android:layout_marginTop="20px"
+        android:layout_below="@id/ll1"
+        android:layout_centerHorizontal="true"
+        android:text="请前往“我的钱包-出行券”查看"/>
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="重新发单"
+        android:layout_marginLeft="40px"
+        android:layout_marginRight="40px"
+        android:background="#FA8919"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="538px"
+        />
+</RelativeLayout>
