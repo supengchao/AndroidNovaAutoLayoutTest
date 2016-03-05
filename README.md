@@ -1,5 +1,7 @@
 # AndroidNovaAutoLayoutTest
+
 实际使用AutoLayout调试代码的适配性
+
 # UI给的标注图
 ![](https://raw.githubusercontent.com/supengchao/AndroidNovaAutoLayoutTest/master/720.png)
 ![](https://raw.githubusercontent.com/supengchao/AndroidNovaAutoLayoutTest/master/0203.png)
